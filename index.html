@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Florescence </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel='stylesheet' href='https://unpkg.com/swiper/swiper-bundle.min.css'><link rel="stylesheet" href="./style.css">
 
 </head>
@@ -11,178 +12,352 @@
 <!-- partial:index.partial.html -->
 <div class="container">
 	<div class="header">
-		<!-- <a class="menu-icon" href="#">
-			<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-			</svg>
-		</a> -->
 		<img class="logo" src="/images/logo_verde.png" />
 		<div class="header-menu">
-			<a href="#">Mask</a>
-			<a href="#">Helmet</a>
-			<a href="#">Bottle</a>
-			<a href="#">Accessories</a>
+			<a href="#">Assinatura de Flores</a>
+			<a href="#">Depoimentos</a>
+			<a href="#">Os Buquês</a>
+			<a href="#">Preços</a>
+			<a href="#">Quem Somos</a>
+			<a href="#">Contato</a>
 		</div>
-		<div class="header-icons">
-			<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-			</svg>
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-				<path d="M437.02 330.98c-27.883-27.882-61.071-48.523-97.281-61.018C378.521 243.251 404 198.548 404 148 404 66.393 337.607 0 256 0S108 66.393 108 148c0 50.548 25.479 95.251 64.262 121.962-36.21 12.495-69.398 33.136-97.281 61.018C26.629 379.333 0 443.62 0 512h40c0-119.103 96.897-216 216-216s216 96.897 216 216h40c0-68.38-26.629-132.667-74.98-181.02zM256 256c-59.551 0-108-48.448-108-108S196.449 40 256 40s108 48.448 108 108-48.449 108-108 108z" />
-			</svg>
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208.955 208.955">
-				<path d="M190.85 200.227L178.135 58.626a7.5 7.5 0 00-7.47-6.829h-26.221V39.971c0-22.04-17.93-39.971-39.969-39.971-22.038 0-39.966 17.931-39.966 39.971v11.826H38.27a7.5 7.5 0 00-7.47 6.829L18.035 200.784a7.5 7.5 0 007.47 8.17h157.946a7.5 7.5 0 007.399-8.727zM79.509 39.971c0-13.769 11.2-24.971 24.967-24.971 13.768 0 24.969 11.202 24.969 24.971v11.826H79.509V39.971zm-45.8 153.984L45.127 66.797h19.382v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h49.936v13.412a7.5 7.5 0 007.5 7.5 7.5 7.5 0 007.5-7.5V66.797h19.364l11.418 127.158H33.709z" />
-			</svg>
+		<a href="#"><button class="header-button">Assinar Agora</button></a>
+	</div>
+
+	<div class="section-header">
+		<div class="left-side">
+			<div class="main-wrapper">
+				<h1 class="main-title">Assinatura de Flores</h1>
+			</div>
+			<div class="main-content">
+				<br/>
+				<div class="main-content__title">Flores para encantar seu dia a dia</div>
+				<br/>
+				<div class="main-content__subtitle-header">Aqui na Florescence a beleza, a delicadeza e a natureza 
+					se encontram em arranjos exclusivos e sofisticados. Nossa 
+					assinatura de flores permite que você tenha a beleza e o 
+					frescor das flores em sua casa ou escritório, trazendo um 
+					toque especial em todos os momentos.
+				</div>
+<!-- 				<br/>
+				<div class="more-menu">
+					Saiba Mais
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.7" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<line x1="-5" y1="12" x2="19" y2="12" />
+						<line x1="15" y1="16" x2="19" y2="12" />
+						<line x1="15" y1="8" x2="19" y2="12" />
+					</svg>
+				</div> -->
+			</div>
+		</div>
+		<div class="rigth-side-header">
+			<img class="floresheader" src="/images/flor.png" />
 		</div>
 	</div>
-	<div class="mySwiper">
-		<div class="main-wrapper swiper-wrapper">
-			<div class="main swiper-slide" id="beach">
-				<div class="left-side">
-					<div class="main-wrapper">
-						<h3 class="main-header">Closca Bottle</h3>
-						<h1 class="main-title">Beach</h1>
-						<h2 class="main-subtitle">€ 39.90</h2>
-					</div>
-					<div class="main-content">
-						<div class="main-content__title">In 20 years, there could be more plastic in our oceans than fish.</div>
-						<div class="main-content__subtitle">Plastic pollution injures more than 100.000 marine animals every year.It takes around 450 years for one plastic bottle to decompose.</div>
-						<div class="more-menu">
-							Shop Now
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.7" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-								<line x1="-5" y1="12" x2="19" y2="12" />
-								<line x1="15" y1="16" x2="19" y2="12" />
-								<line x1="15" y1="8" x2="19" y2="12" />
-							</svg>
-						</div>
-					</div>
+
+	<div class="section-white">
+		<div class="left-side">
+			<img class="img-flores" src="/images/flor1.png" />			
+		</div>
+		<div class="right-side">
+			<div class="main-content main-content__text">
+				<div class="main-content__title">Beleza e Leveza no Cotidiano</div>
+				<br/>
+				<div class="main-content__subtitle">						
+					<p>Flores não precisam estar reservadas apenas a 
+						ocasiões especiais. Aqui na Florescence, você pode 
+						ter a beleza e leveza das flores todos os dias. 
+					
+					</p>								
+					<p>Adorne sua vida com nossos arranjos exclusivos, criados 
+						cuidadosamente para trazer um toque de encanto a 
+						cada ambiente.
+					</p>								
+					<p>
+						Mas como ter flores frescas todos os dia? 
+						Com a nossa assinatura de flores, claro!
+					</p>
 				</div>
-				<div class="center">
-					<div class="right-side__img">
-						<img class="bottle-bg" src="https://cdn.shopify.com/s/files/1/0689/1443/t/34/assets/Beach_1920.jpg?v=1029210661698833530" alt="">
-						<img class="bottle-img" src="https://cdn.shopify.com/s/files/1/0689/1443/t/34/assets/bottle_beach.png?v=11784267851598469514" />
-					</div>
-				</div>
-			</div>
-			<div class="main swiper-slide" id="savanna">
-				<div class="left-side">
-					<div class="main-wrapper">
-						<h3 class="main-header">Closca Bottle</h3>
-						<h1 class="main-title">Savanna</h1>
-						<h2 class="main-subtitle">€ 39.90</h2>
-					</div>
-					<div class="main-content">
-						<div class="main-content__title">The Earth’s area affected by desertification is approx 11 times India’s size.
-						</div>
-						<div class="main-content__subtitle">The Savannas act as a carbon sink, absorbing CO2 from the atmosphere and helping to maintain the balance of global temperatures.</div>
-						<div class="more-menu">
-							Shop Now
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.7" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-								<line x1="-5" y1="12" x2="19" y2="12" />
-								<line x1="15" y1="16" x2="19" y2="12" />
-								<line x1="15" y1="8" x2="19" y2="12" />
-							</svg>
-						</div>
-					</div>
-				</div>
-				<div class="center">
-					<div class="right-side__img">
-						<img class="bottle-bg" src="https://images.unsplash.com/photo-1613109526778-27605f1f27d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" alt="">
-						<img class="bottle-img" src="https://cdn.shopify.com/s/files/1/0689/1443/t/34/assets/savanna_OK.png?v=4783820813181844557" />
-					</div>
-				</div>
-			</div>
-			<div class="main swiper-slide" id="glacier">
-				<div class="left-side">
-					<div class="main-wrapper">
-						<h3 class="main-header">Closca Bottle</h3>
-						<h1 class="main-title">Glacier</h1>
-						<h2 class="main-subtitle">€ 39.90</h2>
-					</div>
-					<div class="main-content">
-						<div class="main-content__title">Glaciers contain 75% of the World's freshwater.
-						</div>
-						<div class="main-content__subtitle">The effects of melting ice glaciers are biodiversity loss, the rising of the sea level and the deficiency of freshwater, among others.</div>
-						<div class="more-menu">
-							Shop Now
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.7" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-								<line x1="-5" y1="12" x2="19" y2="12" />
-								<line x1="15" y1="16" x2="19" y2="12" />
-								<line x1="15" y1="8" x2="19" y2="12" />
-							</svg>
-						</div>
-					</div>
-				</div>
-				<div class="center">
-					<div class="right-side__img">
-						<img class="bottle-bg" src="https://www.discover-the-world.com/app/uploads/2018/05/chile-patagonia-calving-glacier-is-1150x863-c-default.jpg" alt="">
-						<img class="bottle-img" src="https://cdn.shopify.com/s/files/1/0689/1443/t/34/assets/Glacier_OK.png?v=7185877315400411030" />
-					</div>
-				</div>
-			</div>
-			<div class="main swiper-slide" id="coral">
-				<div class="left-side">
-					<div class="main-wrapper">
-						<h3 class="main-header">Closca Bottle</h3>
-						<h1 class="main-title">Coral</h1>
-						<h2 class="main-subtitle">€ 39.90</h2>
-					</div>
-					<div class="main-content">
-						<div class="main-content__title">We will have lost 60% of our coral reefs by 2030.
-						</div>
-						<div class="main-content__subtitle">Coral reefs are essential to humans, as they protect the shorelines and are a source of
-							nutrients and habitat for thousands of marine species.</div>
-						<div class="more-menu">
-							Shop Now
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.7" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-								<line x1="-5" y1="12" x2="19" y2="12" />
-								<line x1="15" y1="16" x2="19" y2="12" />
-								<line x1="15" y1="8" x2="19" y2="12" />
-							</svg>
-						</div>
-					</div>
-				</div>
-				<div class="center">
-					<div class="right-side__img">
-						<img class="bottle-bg" src="https://images.unsplash.com/photo-1546500840-ae38253aba9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3260&q=80" alt="">
-						<img class="bottle-img" src="https://cdn.shopify.com/s/files/1/0689/1443/t/34/assets/Coral_OK.png?v=14596995446202437119" />
-					</div>
+				<br/>
+				<div class="more-menu">
+					Saiba Mais
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.7" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<line x1="-5" y1="12" x2="19" y2="12" />
+						<line x1="15" y1="16" x2="19" y2="12" />
+						<line x1="15" y1="8" x2="19" y2="12" />
+					</svg>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="button-wrapper">
-		<div class="swiper-button swiper-prev-button">
-			<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-			</svg>
+
+	<div class="section-center">		
+		<div class="main-wrapper">
+			<h1 class="main-title-flex">Como funciona</h1>
 		</div>
-		<div class="swiper-button swiper-next-button">
-			<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-			</svg>
+		<div class="flex-content">
+			<div class="flex-item">
+				<p class="flex-title">Você escolhe seu plano</p>
+				<p><i class="far fa-thumbs-up"></i></p>
+				<p class="flex-text">Receba toda semana, a cada quinze dias ou mensalmente. Como preferir.</p>
+			</div>
+			<div class="flex-item">
+				<p class="flex-title">Seleção Cuidadosa das Flores</p>
+				<p><i class="fab fa-pagelines"></i></p>
+				<p class="flex-text">Nossos profissionais selecionam manualmente as flores mais frescas para criar os arranjos únicos.</p>
+			</div>
+			<div class="flex-item">
+				<p class="flex-title">Entrega Agendada</p>
+				<p><i class="far fa-calendar-check"></i></p>
+				<p class="flex-text">Você recebe seu arranjo toda terça ou sexta-feira, na hora marcada e mensalmente recebe uma surpresa.</p>
+			</div>
 		</div>
 	</div>
-	<div class="swiper-pagination"></div>
+
+	<div class="section-center-white">		
+		<a href="#"><button class="button-center">Quero Assinar Agora</button></a>
+	</div>
+
+	
+	<div class="section">
+		<div class="right-side">		
+			<div class="main-content main-content__text">
+				<div class="main-content__title">Delicadeza e amor em cada buquê</div>
+				<br/>
+				<div class="main-content__subtitle">						
+					<p>Receba uma surpresa mensalmente *</p>								
+					<p>Ganhe um lindo vaso de vidro na seu primeiro recebimento **<p>
+					<p>O frete é por nossa conta</p>
+					<p>Receba em casa, no escritório, ou onde preferir ***</p>
+					<p>Temos um cuidado especial ao assinantes donos de gatos ♥ </p>
+				</div>
+				<br/>
+				<div class="main-content__subsubtitle">						
+					<p>* Uma vez ao mês, receba uma surpresa junto com suas flores, que pode ser um material com curiosidades flores, sementes de alguma plantinha, materiais de jardinagem, artigos de decoração, etc. 											
+					</p>								
+					<p>** Ganhe um lindo vaso de vidro da nossa coleção especial. Por mais R$ 20,00 no seu primeiro recebimento.						
+					</p>								
+					<p>*** Caso escolha receber em mais de um local, consulte valores de frete.</p>
+				</div>
+			</div>
+		</div>
+		<div class="left-side">
+			<img class="img-flores" src="/images/flor2.jpeg" />	
+		</div>
+	</div>
+
+	
+	<div class="section" style="margin-top: 125px;">
+		<div class="left-side">
+			<img class="img-flores" src="/images/flor3.jpeg" />			
+		</div>
+		<div class="right-side" style="padding: 89px !important;">
+			<div class="main-content__subtext">						
+				<p>Aí você pode dizer:</p>
+			</div>
+			<div class="main-content main-content__text">
+				<div class="main-content__title">“Mas eu não sei cuidar de plantinhas”</div>
+				<div class="main-content__subtitle">						
+					<p>Não se preocupe! Junto com cada entrega, vai um manual básico de como cuidar das 
+						suas flores e fazer elas durarem mais tempo.
+					</p>
+				</div>
+			</div>
+			<div class="main-content__subtext">						
+				<p>E o melhor:</p>
+			</div>
+			<div class="main-content main-content__text">
+				<div class="main-content__title">Cancele ou pause quando quiser</div>
+				<div class="main-content__subtitle">						
+					<p>Sim, nossa assinatura foi pensada para fazer parte do seu dia a dia, 
+						sendo totalmente adaptável. Só nos mandar uma mensagem pelo WhatsApp que realizamos as alterações.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section-album">
+		<div>
+			<div class="coluna-grid">
+				<div class="item"><img class="img-album-flores" src="/images/pexels-kristina-paukshtite-112396.jpg" /></div>
+				<div class="item"><img class="img-album-flores" src="/images/pexels-майя-полещук-8555607.jpg" /></div>
+				<div class="item"><img class="img-album-flores" src="/images/sonny-mauricio-GWrxS-thF5A-unsplash.jpg" /></div>
+				<div class="item"><img class="img-album-flores" src="/images/pexels-helena-jankovičová-kováčová-11668544.jpg" /></div>
+				<div class="item"><img class="img-album-flores" src="/images/angelina-jollivet-mNEpmNiFdXs-unsplash.jpg" /></div>
+				<div class="item"><img class="img-album-flores" src="/images/alina-karpenko-WCkWGoHHNOM-unsplash.jpg" /></div>
+			  </div>
+			  <div class="coluna-grid">
+				<div class="item"><img class="img-album-flores" src="/images/brigitte-tohm-0utRJ1mZoZg-unsplash.jpg" /></div>
+				<div class="item"><img class="img-album-flores" src="/images/christie-kim-0IsBu45B3T8-unsplash.jpg" /></div>
+				<div class="item"><img class="img-album-flores" src="/images/carrie-beth-williams-s3AFTBZ3cnc-unsplash.jpg" /></div>
+				<div class="item"><img class="img-album-flores" src="/images/girl-with-red-hat-xaJ-fvPZEsM-unsplash.jpg"/></div>
+				<div class="item"><img class="img-album-flores" src="/images/nina-mercado-YSgybXhgc-Q-unsplash.jpg" /></div>
+				<div class="item"><img class="img-album-flores" src="/images/sarah-johnson-W1AIPmPdp1Q-unsplash.jpg" /></div>
+			  </div>
+		</div>
+	</div>
+	
+	<div class="section-center-white">		
+		<a href="#"><button class="button-center">Quero deixar meus ambientes mais belos e cheios de amor</button></a>
+	</div>
+	
+	<div class="section-center-white-dep">
+		<div class="main-wrapper">
+			<h1 class="main-title-flex">O que os assinantes têm falado</h1>
+		</div>
+		<div class="flex-content">
+			<div class="comentario">				
+				<div class="quadrado"> 
+					<div class="flex-item">
+						<p class="flex-text-com">"Estou encantada com a assinatura de flores da Florescence! 
+							Desde que me tornei assinante, minha casa ganhou uma atmosfera completamente 
+							diferente. As flores são sempre frescas, lindas e cuidadosamente arranjadas. 
+							É incrível acordar todas as semanas com um novo buquê lindo. A 
+							equipe da Florescence é super atenciosa e prestativa. Recomendo a todos que 
+							desejam um toque especial e elegante em suas vidas!"</p>
+						<p class="flex-title-com">Isabela S.</p>
+					</div>
+				</div>
+			</div>
+			<div class="comentario">				
+				<div class="quadrado"> 
+					<div class="flex-item">
+						<p class="flex-text-com">"Sem dúvida, assinar as flores da Florescence foi a melhor decisão 
+							que tomei. Além de receber flores maravilhosas em casa, tive a oportunidade de surpreender 
+							minha esposa com presentes inesperados. Ela fica encantada toda vez que as flores chegam. 
+							A qualidade dos arranjos é impecável, e o cuidado com os detalhes é notável. Essa assinatura 
+							tornou nossos momentos juntos ainda mais especiais." </p>
+						<p class="flex-title-com">Pedro M.</p>
+					</div>
+				</div>
+			</div>
+			<div class="comentario">				
+				<div class="quadrado"> 
+					<div class="flex-item">
+						<p class="flex-text-com">"A assinatura de flores da Florescence adicionou um toque de sofisticação 
+							ao meu escritório. Os arranjos são sempre elegantes e proporcionam um ambiente agradável para 
+							meus clientes e colaboradores. É incrível como as flores têm o poder de transformar o espaço. 
+							Além disso, o processo de assinatura é simples e a entrega é pontual. Sem dúvida, uma das melhores 
+							escolhas que fiz para meu negócio."</p>
+						<p class="flex-title-com">Carla R.</p>
+					</div>
+				</div>
+			</div>
+		</div>		  
+	</div>
+	
+	<div class="section-center" style="height:600px;">		
+		<div class="main-wrapper">
+			<h1 class="main-title-flex">Escolha seu plano</h1>
+			<br/>
+			<div class="main-content__subtitle">
+				Com qual a frequência deseja receber seus buquês?
+			</div>
+		</div>
+		<div class="flex-content">
+			<div class="comentario">				
+				<div class="quadrado"> 
+					<div class="flex-item">
+						<p class="flex-title-plan">SEMANAL</p>
+						<p class="main-content__subtitle">4 buquês / mês</p>
+						<p class="flex-text-pp">R$ 380,00</p>
+						<a href="#"><button class="header-button">Assinar Agora</button></a>						
+						<p class="flex-text-plan">Pause ou cancele quando quiser</p>
+					</div>
+				</div>
+			</div>
+			<div class="comentario">				
+				<div class="quadrado"> 
+					<div class="flex-item">
+						<p class="flex-title-plan">QUINZENAL</p>
+						<p class="main-content__subtitle">2 buquês / mês</p>
+						<p class="flex-text-pp">R$ 240,00</p>
+						<a href="#"><button class="header-button">Assinar Agora</button></a>						
+						<p class="flex-text-plan">Pause ou cancele quando quiser</p>
+					</div>
+				</div>
+			</div>			
+			<div class="comentario">				
+				<div class="quadrado"> 
+					<div class="flex-item">
+						<p class="flex-title-plan">MENSAL</p>
+						<p class="main-content__subtitle">1 buquê / mês</p>
+						<p class="flex-text-pp">R$ 120,00</p>
+						<a href="#"><button class="header-button">Assinar Agora</button></a>						
+						<p class="flex-text-plan">Pause ou cancele quando quiser</p>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="main-content__subtitle">
+			As entregas serão feitas todas as Terças ou Sextas-feiras, de acordo com o seu endereço. E o melhor...
+		</div>
+		<div class="main-content__subtitle">
+			O FRETE É POR NOSSA CONTA!
+		</div>	  
+	</div>
+	
+	<div class="section-center-white-frase">		
+		<p>"Cada buquê é um convite para celebrar a beleza da vida e se apaixonar por cada detalhe que a natureza nos oferece."</p>
+	</div>
+	
+	<div class="section-quem">
+		<div class="left-side">
+			<img class="img-flores" src="/images/nicole-herrero-GGjQaf4kjWQ-unsplash.jpg" />			
+		</div>
+		<div class="right-side">
+			<div class="main-wrapper">
+				<h1 class="main-title-flex">Quem somos</h1>
+			</div>
+			<br/>
+			<div class="main-content__subtitle">						
+				<p>
+					Na Florescence, acreditamos que a natureza é a maior inspiração para criar momentos de beleza e encantamento 
+					na vida das pessoas. Somos uma floricultura apaixonada por flores e dedicada a transmitir toda a magia e 
+					sofisticação que elas têm a oferecer. 			
+				</p>								
+				<p>
+					Nossa história começa com o amor incondicional pela natureza e a fascinação pelas cores e formas das 
+					flores. Desde o princípio, buscamos conectar a beleza exuberante das flores à vida cotidiana de nossos 
+					clientes, proporcionando experiências que encantem os sentidos e elevem o espírito.
+				</p>								
+				<p>
+					Com uma equipe de talentosos especialistas florais, selecionamos cuidadosamente cada flor para compor arranjos 
+					exclusivos que expressem emoções e criem ambientes únicos. Nossa dedicação e paixão por florescer momentos especiais 
+					nos impulsionam a criar composições que transbordam harmonia e delicadeza.
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="section-center-white">		
+		<a href="#"><button class="button-center">Quero deixar o meu ambiente mais florido</button></a>
+	</div>
+	
+	<div class="section-footer">
+		<div class="flex-content">
+			<div class="flex-item">
+				<p class="flex-text-com">Matriz: endereço</p>
+				<p class="flex-text-com">Filial: endereço</p>
+				<p class="flex-text-com">Filial: endereço</p>
+			</div>
+			<div class="flex-item">
+					<img class="logo" src="/images/logo_verde.png" />
+			</div>
+			<div class="flex-item">
+				<p><i class="fa-brands fa-instagram"></i> 
+					<i class="fa-brands fa-whatsapp"></i>
+				</p>				
+			</div>
+		</div>		  
+		<p class="flex-text-com" style="text-align: center ;">2023. Todos os direitos reservados.</p>
+	</div>
 </div>
 
-<div>
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et ligula sed ante ullamcorper faucibus nec at purus. Pellentesque tincidunt nisi et nibh gravida, vel gravida tellus viverra. Etiam vitae risus quam. Curabitur finibus convallis orci vel eleifend. Nam vitae volutpat felis, a accumsan ante. Sed mattis quam sed dapibus aliquet. Vestibulum et odio mi. Integer auctor pellentesque viverra. Nullam eleifend neque non ante gravida scelerisque. In augue dui, ornare in orci ut, efficitur posuere est.
 
-Maecenas laoreet lacus at nisl gravida dictum. Cras efficitur sodales velit, eget pulvinar tortor lobortis sed. Sed imperdiet eu risus id ornare. Curabitur auctor facilisis sem in imperdiet. Morbi blandit sed dolor nec porttitor. Donec eget ultrices odio. Quisque finibus aliquet sodales. In tempus lacinia libero at ornare. Morbi id massa lectus. In sodales vitae arcu sit amet imperdiet. Mauris interdum non neque et commodo.
-
-Nulla in ornare tortor, eget condimentum ipsum. Donec vulputate eleifend erat, id hendrerit enim porta sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum magna eu lacus ullamcorper, at fermentum elit luctus. Ut quis efficitur nibh. Maecenas molestie lorem non sapien fermentum, laoreet luctus ex fringilla. In eget metus varius, posuere enim id, placerat arcu. Vestibulum in purus sit amet enim congue pellentesque id sed ante. Mauris eu aliquam urna. In tempor orci elit, eget efficitur risus dictum vel. Quisque sed viverra diam. Nulla lacinia id sem id egestas.
-
-Sed vel tellus a lorem aliquam lobortis ultrices eget orci. Vestibulum vel massa massa. Praesent varius pretium dignissim. In eu ipsum a massa ultrices eleifend. Morbi congue magna mauris, volutpat congue purus rutrum quis. Donec laoreet lectus ac est porta maximus. Fusce dictum quam ac erat aliquam suscipit. Nulla malesuada imperdiet quam, quis dignissim tellus mattis porttitor. Donec pretium suscipit arcu, eu pretium ligula ultrices et. Nullam mattis, augue imperdiet bibendum ullamcorper, dui ante ultrices neque, a consequat urna erat vitae diam. Phasellus gravida dolor at malesuada scelerisque. Pellentesque tempus purus velit. Donec lectus nibh, maximus eget mollis eu, tempor quis magna. Mauris non tincidunt nisl, eu eleifend quam.
-
-Praesent pulvinar placerat eros, sed gravida nisi vulputate vitae. Integer congue erat in sagittis suscipit. Cras id nibh finibus leo euismod maximus. Ut at mi ut mauris hendrerit interdum quis eu dui. Nullam dictum, ligula id gravida gravida, tortor lacus mollis nibh, a molestie neque quam sit amet dolor. Ut fringilla ante eu nisi aliquam eleifend. Donec vulputate elit lacinia lorem bibendum, tempus tincidunt urna sagittis. Duis odio metus, vehicula tempor felis non, tincidunt lobortis nisl. Sed iaculis sagittis vulputate.
-	</p>
-</div>
 <!-- partial -->
   <script src='https://unpkg.com/swiper/swiper-bundle.min.js'></script><script  src="./script.js"></script>
 
