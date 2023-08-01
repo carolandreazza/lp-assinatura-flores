@@ -130,11 +130,11 @@ body {
   text-decoration: none;
   font-weight: 500;
 }
-@media screen and (max-width: 740px) {
+/* @media screen and (max-width: 740px) {
   .header-menu {
     display: none;
   }
-}
+}*/
 .header-button {
   width: 215px;
   height: 41px;
@@ -150,6 +150,33 @@ body {
   font-weight: 500;
   line-height: 17.25px; /* 86.25% */
 }
+
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color:#155D44;
+  margin: 6px 0;
+}
+@media screen and (max-width: 768px) { /* Change 768px to your desired breakpoint */
+  .header-menu {
+      display: none;
+  }
+
+  .hamburger {
+      display: block;
+  }
+
+  .header-button {
+    display: none;
+  }
+}
+
+
 .button-center {
   width: 50%;
   height: 41px;
