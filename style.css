@@ -481,12 +481,13 @@ font-weight: 700;
    .header-menu.show {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    background-color: #e7dfcf;
+    background-color: #e7dfcf8c;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
     padding: 10px;
+    padding-right: 45px;
     position: absolute;
-    top: 100%;
+    top: 80%;
     left: 0;
     align-items: flex-end;
   }
@@ -494,7 +495,7 @@ font-weight: 700;
    .header-menu a {
     display: block;
     text-align: center;
-    padding: 8px 0;
+    padding: 0;
     text-decoration: none;
 }
    .hamburger {
@@ -525,6 +526,8 @@ font-weight: 700;
   .section-center-white-frase p {
     font-size: 22px;
     margin-top: 63px;
+    background-position: bottom;
+    background-attachment: fixed;
 }
   .section-quem {    
     flex-direction: column;
@@ -533,6 +536,10 @@ font-weight: 700;
   }
   .section-quem .right-side {
     padding-top: 137px;
+}
+
+.flex-text-com {
+  text-align: center;
 }
 
   .main-content__subsubtitle {
@@ -583,7 +590,7 @@ font-weight: 700;
 .button-center {
   width: 80%;
   line-height: 24.25px;
-  height: 90%;
+  height: 100%;
 }
 .main-content__title {
   font-size: 22.5px;
