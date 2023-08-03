@@ -643,6 +643,10 @@ font-weight: 700;
   body {
     padding: 0;
   }
+
+  .button-long {
+    height: 90px;
+  }
 }
 
 
