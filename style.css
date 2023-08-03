@@ -73,7 +73,8 @@ body {
   display: flex;
   align-items: center;
   gap: 29.7px;
-  padding: 90px;
+  padding: 2%;
+  /* padding: 90px; */
   margin-top: 10px;
 }
 
@@ -462,6 +463,11 @@ font-weight: 700;
 
 
 
+@media screen and (max-width: 1300px) {
+  .floresheader {
+    max-width: 140%;
+  }
+}
 @media screen and (max-width: 930px) {
  /*  .main-content .more-menu {
     justify-content: center;
