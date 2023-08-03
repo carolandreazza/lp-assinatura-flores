@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Florescence </title>
   <link rel="icon" type="image/png" href="/images/favicon.png">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<!-- <link rel='stylesheet' href='https://unpkg.com/swiper/swiper-bundle.min.css'> --><link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="dist/css/lightbox.min.css">
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
@@ -162,7 +162,7 @@
 		<div class="left-side">
 			<img class="img-flores" src="/images/flor3.jpeg" />			
 		</div>
-		<div class="right-side" style="padding: 89px !important;">
+		<div class="right-side">
 			<div class="main-content__subtext">						
 				<p>Aí você pode dizer:</p>
 			</div>
@@ -190,7 +190,7 @@
 
 	<div class="section-album">
 		<div>
-			<div class="coluna-grid">
+			<!-- <div class="coluna-grid">
 				<div class="item"><img class="img-album-flores" src="/images/pexels-kristina-paukshtite-112396.jpg" /></div>
 				<div class="item"><img class="img-album-flores" src="/images/pexels-майя-полещук-8555607.jpg" /></div>
 				<div class="item"><img class="img-album-flores" src="/images/sonny-mauricio-GWrxS-thF5A-unsplash.jpg" /></div>
@@ -205,7 +205,23 @@
 				<div class="item"><img class="img-album-flores" src="/images/girl-with-red-hat-xaJ-fvPZEsM-unsplash.jpg"/></div>
 				<div class="item"><img class="img-album-flores" src="/images/nina-mercado-YSgybXhgc-Q-unsplash.jpg" /></div>
 				<div class="item"><img class="img-album-flores" src="/images/sarah-johnson-W1AIPmPdp1Q-unsplash.jpg" /></div>
-			  </div>
+			  </div> -->
+			  <div class="coluna-grid">
+				<div class="item"><a href="/images/pexels-kristina-paukshtite-112396.jpg" data-lightbox="minha-galeria"><img class="img-album-flores" src="/images/pexels-kristina-paukshtite-112396.jpg" /></a></div>
+				<div class="item"><a href="/images/pexels-майя-полещук-8555607.jpg" data-lightbox="minha-galeria"><img class="img-album-flores" src="/images/pexels-майя-полещук-8555607.jpg" /></a></div>
+				<div class="item"><a href="/images/sonny-mauricio-GWrxS-thF5A-unsplash.jpg" data-lightbox="minha-galeria"><img class="img-album-flores" src="/images/sonny-mauricio-GWrxS-thF5A-unsplash.jpg" /></a></div>
+				<div class="item"><a href="/images/pexels-helena-jankovičová-kováčová-11668544.jpg" data-lightbox="minha-galeria"><img class="img-album-flores" src="/images/pexels-helena-jankovičová-kováčová-11668544.jpg" /></a></div>
+				<div class="item"><a href="/images/angelina-jollivet-mNEpmNiFdXs-unsplash.jpg" data-lightbox="minha-galeria"><img class="img-album-flores" src="/images/angelina-jollivet-mNEpmNiFdXs-unsplash.jpg" /></a></div>
+				<div class="item"><a href="/images/alina-karpenko-WCkWGoHHNOM-unsplash.jpg" data-lightbox="minha-galeria"><img class="img-album-flores" src="/images/alina-karpenko-WCkWGoHHNOM-unsplash.jpg" /></a></div>
+			</div>
+			<div class="coluna-grid">
+				<div class="item"><a href="/images/brigitte-tohm-0utRJ1mZoZg-unsplash.jpg" data-lightbox="minha-galeria"><img class="img-album-flores" src="/images/brigitte-tohm-0utRJ1mZoZg-unsplash.jpg" /></a></div>
+				<div class="item"><a href="/images/christie-kim-0IsBu45B3T8-unsplash.jpg" data-lightbox="minha-galeria"><img class="img-album-flores" src="/images/christie-kim-0IsBu45B3T8-unsplash.jpg" /></a></div>
+				<div class="item"><a href="/images/carrie-beth-williams-s3AFTBZ3cnc-unsplash.jpg" data-lightbox="minha-galeria"><img class="img-album-flores" src="/images/carrie-beth-williams-s3AFTBZ3cnc-unsplash.jpg" /></a></div>
+				<div class="item"><a href="/images/girl-with-red-hat-xaJ-fvPZEsM-unsplash.jpg" data-lightbox="minha-galeria"><img class="img-album-flores" src="/images/girl-with-red-hat-xaJ-fvPZEsM-unsplash.jpg" /></a></div>
+				<div class="item"><a href="/images/nina-mercado-YSgybXhgc-Q-unsplash.jpg" data-lightbox="minha-galeria"><img class="img-album-flores" src="/images/nina-mercado-YSgybXhgc-Q-unsplash.jpg" /></a></div>
+				<div class="item"><a href="/images/sarah-johnson-W1AIPmPdp1Q-unsplash.jpg" data-lightbox="minha-galeria"><img class="img-album-flores" src="/images/sarah-johnson-W1AIPmPdp1Q-unsplash.jpg" /></a></div>
+			</div>
 		</div>
 	</div>
 	
@@ -369,6 +385,16 @@
 
 <!-- partial -->
 <script  src="./script.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
+  <script>
+    // Inicializar o Lightbox2
+    $(document).ready(function() {
+      lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+      });
+    });
+  </script>
 </body>
 </html>

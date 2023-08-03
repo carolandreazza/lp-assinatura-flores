@@ -22,11 +22,6 @@ img {
   max-width: 100%;
 }
 
-/* a {
-  text-decoration: none;
-  color: var(--body-color);
-}
- */
 h1,
 h2,
 h3 {
@@ -212,7 +207,7 @@ body {
   padding: 95px 108px 30px 108px;
   text-align: center;
   background-image: url("images/pexels-irina-iriser-1408199.jpg");
-mix-blend-mode: multiply;
+/* mix-blend-mode: multiply; */
   background-size: cover;
   background-repeat: no-repeat; 
   background-position: center;
@@ -481,7 +476,7 @@ font-weight: 700;
    .header-menu.show {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    background-color: #e7dfcf8c;
+    background-color: #e7dfcf;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
     padding: 10px;
