@@ -197,7 +197,7 @@ body {
 }
 .section-quem {
   display: flex;
-  height: 760px;
+  height: 665px;
   align-items: flex-start;
   gap: 120px;
   bottom: 24.5px;
@@ -271,6 +271,7 @@ body {
 }
 .flex-content i {
   font-size: 40px;
+  color: #0b0b0b;
 }
 .flex-item {
   flex-basis: 30%;
