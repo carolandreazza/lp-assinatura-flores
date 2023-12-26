@@ -246,7 +246,7 @@ body {
 }
 .right-side {
   /* padding: 130px 71px; */
-      padding: 102px 71px;
+      padding: 110px 71px;
 }
 .rigth-side-header {
   z-index: 1;
@@ -415,7 +415,7 @@ font-weight: 700;
   font-family: var(--italic-font);
   font-weight: 400;
   font-size: 13px;
-  margin-top: 140px;
+  margin-top: 110px;
   transition-delay: 0.4s;
 }
 .main-content__subtext {
